@@ -1,0 +1,25 @@
+table
+{
+    height: 430px;
+}
+input
+{
+    width: 100%;
+    height:35px;
+    border: 2px solid violet;
+    background-color: lavender;
+}
+textarea
+{
+    width: 100%;
+    height:70px;
+    border: 2px solid violet;
+    background-color: lavender;
+    font-size: 20px;
+}
+input[type="button"]:hover
+{
+    background-color: purple;
+    color: white;
+}
+

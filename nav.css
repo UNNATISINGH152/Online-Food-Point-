@@ -1,0 +1,41 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#menu ul
+{
+    list-style-type: none;
+    z-index: 1000;
+   
+}
+#menu ul li
+{
+    background-color: black;
+    border: 2px solid brown;
+    width: 248px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    position: relative;
+}
+#menu ul li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#menu ul li a:hover
+{
+    background-color: darkorange;
+}
+#menu ul ul
+{
+    position: absolute;
+    display: none;
+}
+#menu ul li:hover > ul
+{
+    display: block;
+}
